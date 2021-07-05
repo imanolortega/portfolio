@@ -1,27 +1,23 @@
 import React from "react";
 
-import {
-  Section,
-  SectionText,
-  SectionTitle,
-} from "../../styles/GlobalComponents";
+import { SectionTitle } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
-import { LeftSection } from "./HeroStyles";
+import { LeftSection, SectionHero, SectionTextHero } from "./HeroStyles";
 
 const Hero = () => (
   <>
-    <Section row nopadding>
+    <SectionHero row nopadding>
       <LeftSection>
         <SectionTitle main center>
           Frontend Developer
         </SectionTitle>
-        <SectionText>Bienvenido a mi portfolio personal</SectionText>
+        <SectionTextHero>Bienvenido a mi portfolio personal</SectionTextHero>
 
-        <a className="btn" href="#projects">
+        <a href="#projects">
           <Button>Ver Proyectos</Button>
         </a>
       </LeftSection>
-    </Section>
+    </SectionHero>
   </>
 );
 
