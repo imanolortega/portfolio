@@ -33,7 +33,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   .gKhHrq {
-    padding: 0px;
+    padding: 0px !important;
   }
 
   .scrollTop {
