@@ -22,11 +22,12 @@ export const Boxes = styled.div`
   }
 `;
 
-export const Box = styled.div`
+export const Box = styled.a`
   background: #212d45;
   border-radius: 12px;
   height: 144px;
   padding: 24px;
+  cursor: pointer;
   @media ${(props) => props.theme.breakpoints.lg} {
     height: 210px;
   }
@@ -64,7 +65,7 @@ export const BoxContact = styled.h5`
   }
 `;
 
-export const BoxText = styled.a`
+export const BoxText = styled.p`
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -78,7 +79,7 @@ export const BoxText = styled.a`
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    font-size: 10px;
+    font-size: 16px;
     line-height: 14px;
   }
 `;

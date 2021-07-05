@@ -36,7 +36,6 @@ export const SectionTitle = styled.h2`
   font-size: ${(props) => (props.main ? "65px" : "56px")};
   line-height: ${(props) => (props.main ? "72px" : "56px")};
   width: max-content;
-
   background: linear-gradient(
     121.57deg,
     #ffffff 18.77%,

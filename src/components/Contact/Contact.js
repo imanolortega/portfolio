@@ -33,9 +33,9 @@ const Contact = () => (
     <SectionTitleH3 main>Contacto</SectionTitleH3>
     <Boxes>
       {data.map((card, index) => (
-        <Box key={index}>
+        <Box key={index} href={card.link}>
           <BoxContact>{card.contact}</BoxContact>
-          <BoxText href={card.link}>{card.text}</BoxText>
+          <BoxText>{card.text}</BoxText>
         </Box>
       ))}
     </Boxes>
