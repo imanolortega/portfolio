@@ -118,6 +118,25 @@ export const ListItem = styled.li`
   }
 `;
 
+export const ListText = styled.li`
+  font-size: "2rem";
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    max-width: 203px;
+  }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    margin-bottom: 14px;
+    max-width: 320px;
+    flex-direction: row;
+    font-size: "1.2rem";
+  }
+`;
+
 export const ListIcon = styled.img`
   display: block;
   width: 48px;

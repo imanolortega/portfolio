@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Section = styled.section`
   display: ${(props) => (props.grid ? "grid" : "flex")};
   flex-direction: ${(props) => (props.row ? "row" : "column")};
-  padding: ${(props) => (props.nopadding ? "0" : "32px 0px 0")};
+  padding: 24px 48px 0;
   margin: 0 auto;
   max-width: 1040px;
   box-sizing: content-box;
@@ -11,13 +11,20 @@ export const Section = styled.section`
   overflow: hidden;
   grid-template-columns: 1fr 1fr;
 
+  @media ${(props) => props.theme.breakpoints.lg} {
+    padding: 24px 48px 0;
+    flex-direction: column;
+  }
+
   @media ${(props) => props.theme.breakpoints.md} {
     padding: 24px 48px 0;
     flex-direction: column;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: ${(props) => (props.nopadding ? "0" : "16px 16px 0")};
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
 
     width: calc(100vw - 32px);
     flex-direction: column;
@@ -48,12 +55,12 @@ export const SectionTitle = styled.h2`
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    font-size: 32px;
+    font-size: 42px;
     line-height: 40px;
-    font-size: ${(props) => (props.main ? "32px" : "32px")};
     line-height: ${(props) => (props.main ? "32px" : "40px")};
     margin-bottom: 8px;
     padding: ${(props) => (props.main ? "18px 0 8px" : "0")};
+    padding-left: 10px;
     max-width: 100%;
   }
 `;
@@ -74,6 +81,13 @@ export const SectionTitleH3 = styled.h3`
   margin-bottom: 16px;
   padding: ${(props) => (props.main ? "58px 0 16px" : "0")};
 
+  @media ${(props) => props.theme.breakpoints.lg} {
+    font-size: ${(props) => (props.main ? "56px" : "48px")};
+    line-height: ${(props) => (props.main ? "56px" : "48px")};
+    margin-bottom: 12px;
+    padding: ${(props) => (props.main ? "40px 0 12px" : "0")};
+  }
+
   @media ${(props) => props.theme.breakpoints.md} {
     font-size: ${(props) => (props.main ? "56px" : "48px")};
     line-height: ${(props) => (props.main ? "56px" : "48px")};
@@ -84,10 +98,10 @@ export const SectionTitleH3 = styled.h3`
   @media ${(props) => props.theme.breakpoints.sm} {
     font-size: 32px;
     line-height: 40px;
-    font-size: ${(props) => (props.main ? "32px" : "32px")};
     line-height: ${(props) => (props.main ? "32px" : "40px")};
     margin-bottom: 8px;
     padding: ${(props) => (props.main ? "18px 0 8px" : "0")};
+    padding-left: 10px;
     max-width: 100%;
   }
 `;
@@ -111,6 +125,7 @@ export const SectionText = styled.p`
     font-size: 18px;
     line-height: 24px;
     padding-bottom: 16px;
+    padding-left: 10px;
   }
 `;
 

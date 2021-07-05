@@ -32,6 +32,10 @@ const GlobalStyles = createGlobalStyle`
     list-style: none;
   }
 
+  .gKhHrq {
+    padding: 0px;
+  }
+
   .scrollTop {
     position: fixed;
     height: 2.9em !important;
@@ -44,20 +48,26 @@ const GlobalStyles = createGlobalStyle`
     animation: fadeIn 0.3s;
     transition: opacity 0.4s;
     opacity: 0.5;
-}
-
-.scrollTop:hover {
+  }
+  
+  .scrollTop:hover {
     opacity: 1;
-}
-
-@keyframes fadeIn {
+    }
+    
+  @keyframes fadeIn {
     0% {
         opacity: 0;
     }
     100% {
         opacity: 0.5;
     }
-}
+  }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    .btn{
+      padding-left: 10px !important;
+    }
+  }
 
 `;
 

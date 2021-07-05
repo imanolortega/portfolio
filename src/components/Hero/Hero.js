@@ -17,7 +17,7 @@ const Hero = () => (
         </SectionTitle>
         <SectionText>Bienvenido a mi portfolio personal</SectionText>
 
-        <a href="#projects">
+        <a className="btn" href="#projects">
           <Button>Ver Proyectos</Button>
         </a>
       </LeftSection>

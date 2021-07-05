@@ -29,7 +29,7 @@ const data = [
 
 const Contact = () => (
   <Section id="contact">
-    <SectionDivider />
+    <SectionDivider divider />
     <SectionTitleH3 main>Contacto</SectionTitleH3>
     <Boxes>
       {data.map((card, index) => (

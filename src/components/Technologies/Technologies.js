@@ -7,7 +7,13 @@ import {
   SectionText,
   SectionTitleH3,
 } from "../../styles/GlobalComponents";
-import { List, ListContainer, ListItem, ListTitle } from "./TechnologiesStyles";
+import {
+  List,
+  ListContainer,
+  ListItem,
+  ListTitle,
+  ListText,
+} from "./TechnologiesStyles";
 
 const compare = (a, b) => {
   if (a.key < b.key) {
@@ -24,7 +30,7 @@ techBack.sort(compare);
 
 const Technologies = () => (
   <Section id="tech">
-    <SectionDivider />
+    <SectionDivider divider />
     <SectionTitleH3 main>Tecnologías</SectionTitleH3>
     <SectionText>Tecnologías que estoy aprendiendo actualmente:</SectionText>
     <List>
@@ -34,9 +40,9 @@ const Technologies = () => (
         </ListItem>
         <ListTitle>Frontend</ListTitle>
         {techFront.map(({ key, tech }) => (
-          <ListItem key={key} style={{ fontSize: "2rem" }}>
+          <ListText key={key} style={{ fontSize: "2rem" }}>
             - {tech}
-          </ListItem>
+          </ListText>
         ))}
       </ListContainer>
       <ListContainer>

@@ -10,7 +10,7 @@ import { SectionTitleH3 } from "../../styles/GlobalComponents/index";
 const AboutMe = () => {
   return (
     <Section id="about">
-      <SectionDivider />
+      <SectionDivider divider />
       <SectionTitleH3 main>Sobre mí</SectionTitleH3>
       <SectionText>
         Tengo 29 años. Estudio Frontend desde6 principios de 2020. <br />
