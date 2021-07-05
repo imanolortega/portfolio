@@ -8,19 +8,21 @@ import {
 import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./HeroStyles";
 
-const Hero = (props) => (
-  <Section>
-    <LeftSection>
-      <SectionTitle main center>
-        Frontend Dev
-      </SectionTitle>
-      <SectionText>Bienvenido a mi portfolio personal</SectionText>
+const Hero = () => (
+  <>
+    <Section row nopadding>
+      <LeftSection>
+        <SectionTitle main center>
+          Frontend Developer
+        </SectionTitle>
+        <SectionText>Bienvenido a mi portfolio personal</SectionText>
 
-      <a href="#projects">
-        <Button>Ver Proyectos</Button>
-      </a>
-    </LeftSection>
-  </Section>
+        <a href="#projects">
+          <Button>Ver Proyectos</Button>
+        </a>
+      </LeftSection>
+    </Section>
+  </>
 );
 
 export default Hero;

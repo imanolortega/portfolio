@@ -67,6 +67,22 @@ export const projects = [
   },
 ];
 
+export const techFront = [
+  { key: 1, tech: "React JS" },
+  { key: 0, tech: "Javascript" },
+  { key: 2, tech: "Redux JS" },
+  { key: 3, tech: "Next JS" },
+  { key: 5, tech: "CSS3" },
+  { key: 4, tech: "HTML5" },
+  { key: 6, tech: "Material UI" },
+  { key: 7, tech: "Styled Components" },
+];
+
+export const techBack = [
+  { key: 0, tech: "Node JS" },
+  { key: 1, tech: "Firebase" },
+];
+
 export const TimeLineData = [
   { year: 2017, text: "Started my journey" },
   { year: 2018, text: "Worked as a freelance developer" },

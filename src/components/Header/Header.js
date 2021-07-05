@@ -34,6 +34,9 @@ const Header = () => (
       <Link href="#about">
         <NavLink>Sobre mí</NavLink>
       </Link>
+      <Link href="#contact">
+        <NavLink>Contacto</NavLink>
+      </Link>
     </Div2>
     <Div3>
       <SocialIcons href="https://github.com/imanolrtega">

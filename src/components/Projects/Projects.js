@@ -16,14 +16,14 @@ import {
 import {
   Section,
   SectionDivider,
-  SectionTitle,
+  SectionTitleH3,
 } from "../../styles/GlobalComponents";
 import { projects } from "../../constants/constants";
 
 const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
-    <SectionTitle main>Proyectos</SectionTitle>
+    <SectionTitleH3 main>Proyectos</SectionTitleH3>
     <GridContainer>
       {projects.map(
         ({ id, image, title, description, tags, source, visit }) => (
