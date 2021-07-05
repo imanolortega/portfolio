@@ -6,6 +6,7 @@ import Technologies from "../components/Technologies/Technologies";
 import AboutMe from "../components/AboutMe/AboutMe";
 import { Layout } from "../layout/Layout";
 import { Section } from "../styles/GlobalComponents";
+import ScrollTop from "./../components/ScrollTop/ScrollTop";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <Technologies />
       <AboutMe />
       <Contact />
+      <ScrollTop />
     </Layout>
   );
 };

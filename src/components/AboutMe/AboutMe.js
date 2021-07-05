@@ -13,7 +13,7 @@ const AboutMe = () => {
       <SectionDivider />
       <SectionTitleH3 main>Sobre mí</SectionTitleH3>
       <SectionText>
-        Tengo 29 años. Estudio Frontend desde principios de 2020. <br />
+        Tengo 29 años. Estudio Frontend desde6 principios de 2020. <br />
         Soy (fui) diseñador gráfico y comunicador. Comencé a programar con
         Python hace unos años y desde el año pasado opté por el Front y
         Javascript. <br />
