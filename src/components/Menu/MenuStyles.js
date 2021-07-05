@@ -16,7 +16,7 @@ export const StyledMenu = styled.nav`
   transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
 
   @media ${(props) => props.theme.breakpoints.md} {
-    width: 50%;
+    width: 75%;
   }
 
   a {
