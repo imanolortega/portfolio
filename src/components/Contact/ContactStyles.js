@@ -15,7 +15,7 @@ export const Boxes = styled.div`
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1fr);
     gap: 10px;
     max-width: 500px;
     margin: 24px auto;
@@ -74,12 +74,12 @@ export const BoxText = styled.p`
   color: rgba(255, 255, 255, 0.75);
 
   @media ${(props) => props.theme.breakpoints.md} {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    font-size: 16px;
+    font-size: 12px;
     line-height: 14px;
   }
 `;
