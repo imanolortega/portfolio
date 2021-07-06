@@ -48,6 +48,20 @@ export default class MyDocument extends Document {
             gtag('js', new Date()); gtag('config', 'G-WF1W5FQFB1');`,
             }}
           />
+          <meta
+            property="og:title"
+            content="Imanol Ortega | Frontend Developer"
+          />
+          <meta
+            property="og:description"
+            content="Frontend Developer Jr. Javascript y React."
+          />
+          <meta
+            property="og:image"
+            content="https://imanolortega.vercel.app/images/7.png"
+          />
+          <meta property="og:url" content="https://imanolortega.vercel.app/" />
+          <meta name="twitter:card" content="summary_large_image"></meta>
         </Head>
         <body>
           <Main />
