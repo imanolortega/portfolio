@@ -17,8 +17,8 @@ const AboutMe = () => {
         Soy (fui) diseñador gráfico y comunicador. Comencé a programar con
         Python hace unos años y desde el año pasado opté por el Front y
         Javascript. <br />
-        Busco comenzar mi carrera como programador para dedicarme full time a
-        esto y seguir aprendiendo.{" "}
+        Busco comenzar mi carrera como programador para dedicarme full time al
+        Desarrollo Web y continuar aprendiendo.{" "}
       </SectionText>
     </Section>
   );
