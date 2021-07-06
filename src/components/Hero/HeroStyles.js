@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const SectionHero = styled.section`
   display: ${(props) => (props.grid ? "grid" : "flex")};
   flex-direction: ${(props) => (props.row ? "row" : "column")};
-
+  padding-top: 80px;
   margin: 0 auto;
   max-width: 1040px;
   box-sizing: content-box;
