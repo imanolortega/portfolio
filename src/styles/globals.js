@@ -8,6 +8,7 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    letter-spacing: 0.05em;
   }
   html {
     font-size: 62.5%;

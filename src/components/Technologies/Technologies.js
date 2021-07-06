@@ -40,9 +40,7 @@ const Technologies = () => (
         </ListItem>
         <ListTitle>Frontend</ListTitle>
         {techFront.map(({ key, tech }) => (
-          <ListText key={key} style={{ fontSize: "2rem" }}>
-            - {tech}
-          </ListText>
+          <ListText key={key}>- {tech}</ListText>
         ))}
       </ListContainer>
       <ListContainer>
@@ -51,9 +49,7 @@ const Technologies = () => (
         </ListItem>
         <ListTitle>Backend</ListTitle>
         {techBack.map(({ key, tech }) => (
-          <ListItem key={key} style={{ fontSize: "2rem" }}>
-            - {tech}
-          </ListItem>
+          <ListText key={key}>- {tech}</ListText>
         ))}
       </ListContainer>
     </List>

@@ -51,7 +51,7 @@ export const BoxContact = styled.h5`
   font-weight: 600;
   font-size: 30px;
   line-height: 40px;
-  letter-spacing: 0.01em;
+
   color: #ffffff;
   margin-bottom: 8px;
 

@@ -119,21 +119,22 @@ export const ListItem = styled.li`
 `;
 
 export const ListText = styled.li`
-  font-size: "2rem";
+  font-size: 2rem;
   max-width: 320px;
   display: flex;
   flex-direction: column;
   margin-bottom: 5px;
 
   @media ${(props) => props.theme.breakpoints.md} {
+    font-size: 1.9rem;
     max-width: 203px;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: 1.8rem;
     margin-bottom: 14px;
     max-width: 320px;
     flex-direction: row;
-    font-size: "1.2rem";
   }
 `;
 
