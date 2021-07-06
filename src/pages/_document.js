@@ -29,12 +29,24 @@ export default class MyDocument extends Document {
   }
   render() {
     return (
-      <Html lang="en-GB">
+      <Html lang="es-ES">
         <Head>
+          <title>Imanol Ortega | Frontend Developer</title>
           <link
             rel="stylesheet"
             type="text/css"
             href="//fonts.googleapis.com/css?family=Nunito"
+          />
+          <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=G-WF1W5FQFB1`}></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              window.dataLayer = window.dataLayer || []; function gtag()
+            {dataLayer.push(arguments)}
+            gtag('js', new Date()); gtag('config', 'G-WF1W5FQFB1');`,
+            }}
           />
         </Head>
         <body>
