@@ -16,10 +16,21 @@ const Footer = () => {
       <SocialIconsContainer>
         <CompanyContainer>
           <Slogan>
-            Sitio Web realizado con{" "}
+            Sitio Web codeado con{" "}
             <a style={{ color: "white" }} href="https://nextjs.org/">
               Next JS
+            </a>{" "}
+            y hosteado en{" "}
+            <a style={{ color: "white" }} href="https://vercel.com/">
+              Vercel
             </a>
+            . Aquí puedes ver el{" "}
+            <a
+              style={{ color: "white" }}
+              href="https://github.com/imanolrtega/portfolio">
+              Código
+            </a>
+            .
           </Slogan>
         </CompanyContainer>
         <SocialContainer>
