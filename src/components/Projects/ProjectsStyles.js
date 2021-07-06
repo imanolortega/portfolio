@@ -34,14 +34,25 @@ export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #46acbd;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
 `;
 
 export const HeaderThree = styled.h3`
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 2px;
-  color: #9cc9e3;
+  color: #b6cdfc;
   padding: 0.5rem 0;
   font-size: ${(props) => (props.title ? "3.2rem" : "2rem")};
+  @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: 2.3rem;
+    font-weight: 600;
+  }
 `;
 
 export const Hr = styled.hr`
@@ -49,14 +60,13 @@ export const Hr = styled.hr`
   height: 3px;
   margin: 20px auto;
   border: 0;
-  background: #d0bb57;
+  background: #46acbd;
 `;
 
 export const Intro = styled.div`
   width: 170px;
   margin: 0 auto;
-  color: #dce3e7;
-  font-family: "Droid Serif", serif;
+  color: #46acbd;
   font-size: 13px;
   font-style: italic;
   line-height: 18px;
@@ -100,8 +110,12 @@ export const TagList = styled.ul`
   display: flex;
   justify-content: space-around;
   padding: 2rem;
+  @media screen and (max-width: 580px) {
+    display: block;
+  }
 `;
 export const Tag = styled.li`
-  color: #d8bfbf;
+  padding: 4px 5px;
+  color: #b6cdfc;
   font-size: 1.5rem;
 `;

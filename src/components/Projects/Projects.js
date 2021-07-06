@@ -36,9 +36,7 @@ const Projects = () => (
             <CardInfo>{description}</CardInfo>
             <div>
               <br></br>
-              <TitleContent style={{ fontSize: "2rem", color: "#d0bb57" }}>
-                Stack
-              </TitleContent>
+              <TitleContent>Stack</TitleContent>
               <TagList>
                 {tags.map((tag) => (
                   <Tag>{tag}</Tag>
