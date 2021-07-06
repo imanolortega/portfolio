@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "React Tetris",
     description:
-      "Tetris clásico realizado con React Hooks. El estilo con Styled Components. Hosting con Vercel.",
+      "Tetris clásico con React Hooks. Estilo con Styled Components. Hosting con Vercel.",
     image: "/images/1.png",
     tags: ["React Js", "React Hooks", "Styled Components"],
     source: "https://github.com/imanolrtega/tetris-react",
@@ -12,7 +12,7 @@ export const projects = [
   {
     title: "Disney Plus Clone",
     description:
-      "Clon de Disney + con React Js, React Router, Redux, Styled Components y Firebase como DB y Hosting.",
+      "Clon de Disney + con React Js, React Router y Redux. Estilo con Styled Components. Auth, DB y Hosting con Firebase.",
     image: "/images/2.png",
     tags: [
       "React Js",
@@ -28,7 +28,7 @@ export const projects = [
   {
     title: "Amazon Clone",
     description:
-      "Clon de Amazon con React Js, React Router, Styled-Components y Firebase como DB y Hosting.",
+      "Clon de Amazon con React Js y React Router. Estilo con Styled-Components. Auth, DB y Hosting con Firebase.",
     image: "/images/3.png",
     tags: ["React Js", "React Router", "Styled Components", "Firebase"],
     source: "https://github.com/imanolrtega/amazon-clone",
@@ -38,7 +38,7 @@ export const projects = [
   {
     title: "Twitter Clone",
     description:
-      "Clon de Twitter con React Js, Material UI y Firebase como DB y Hosting.",
+      "Clon de Twitter con React Js. Estilo con Material UI. DB y Hosting con Firebase.",
     image: "/images/4.png",
     tags: ["React JS", "Material UI", "Firebase"],
     source: "https://github.com/imanolrtega/twitter-clone",
@@ -48,7 +48,7 @@ export const projects = [
   {
     title: "Covid Tracker",
     description:
-      "Covid Tracker con React Js, Chart Js, API de disease.sh y Material UI.",
+      "Covid Tracker con React Js, Chart Js, API de disease.sh. Estilo con Material UI. Hosting con Firebase.",
     image: "/images/5.png",
     tags: ["React JS", "Material UI", "Firebase"],
     source: "https://github.com/imanolrtega/covid-tracker",
@@ -58,7 +58,7 @@ export const projects = [
   {
     title: "Datatable con Google Sheets",
     description:
-      "Primer proyecto con React JS. Datatable con Google Sheets como DB, estilo con Bootstrap y Darkmode con Styled Components y Hooks.",
+      "Primer proyecto con React JS. Datatable con Google Sheets como DB. Estilo con Bootstrap y Darkmode con Styled Components y Hooks.",
     image: "/images/6.png",
     tags: ["React JS", "Bootstrap", "Styled Components"],
     source: "https://github.com/imanolrtega/datatable-googlesheets",
@@ -81,12 +81,4 @@ export const techFront = [
 export const techBack = [
   { key: 0, tech: "Node JS" },
   { key: 1, tech: "Firebase" },
-];
-
-export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
 ];
