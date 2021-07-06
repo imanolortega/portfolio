@@ -18,7 +18,7 @@ const ScrollTop = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", checkScrollTop);
-  }, []);
+  });
 
   return (
     <FaArrowCircleUp
