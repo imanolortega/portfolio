@@ -6,7 +6,7 @@ export const Img = styled.img`
   object-fit: cover;
   overflow: hidden;
   @-moz-document url-prefix() {
-    height: 25%;
+    height: 20%;
   }
 `;
 
