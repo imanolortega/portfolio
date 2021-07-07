@@ -5,6 +5,9 @@ export const Img = styled.img`
   height: 100%;
   object-fit: cover;
   overflow: hidden;
+  @-moz-document url-prefix() {
+    height: 30%;
+  }
 `;
 
 export const GridContainer = styled.section`
@@ -47,7 +50,7 @@ export const HeaderThree = styled.h3`
   font-weight: 600;
   letter-spacing: 2px;
   color: #b6cdfc;
-  padding: 0.5rem 0;
+  padding: 2rem 0;
   font-size: ${(props) => (props.title ? "3.2rem" : "2rem")};
   @media ${(props) => props.theme.breakpoints.sm} {
     font-size: 2.3rem;

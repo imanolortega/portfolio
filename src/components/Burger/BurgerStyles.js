@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const StyledBurger = styled.button`
   position: fixed;
-  top: 4%;
   right: 4rem;
   display: none;
   flex-direction: column;
@@ -50,6 +49,6 @@ export const StyledBurger = styled.button`
   @media ${(props) => props.theme.breakpoints.sm} {
     z-index: 99;
     display: flex;
-    top: 5%;
+    top: 6%;
   }
 `;
