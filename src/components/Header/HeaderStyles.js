@@ -22,6 +22,9 @@ export const Div1 = styled.div`
   display: flex;
   flex-direction: row;
   align-content: center;
+  @media ${(props) => props.theme.breakpoints.md} {
+    grid-area: 1 / 1 / 2 / 3;
+  }
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 1 / 1 / 2 / 5;
   }
@@ -58,7 +61,6 @@ export const Div3 = styled.div`
 // Navigation Links
 export const NavLink = styled.a`
   font-size: 1.7rem;
-  line-height: 32px;
   color: rgba(255, 255, 255, 0.75);
   transition: 0.4s ease;
   &:hover {

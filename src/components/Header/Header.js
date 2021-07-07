@@ -1,9 +1,10 @@
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { DiCode } from "react-icons/di";
 import Burger from "../Burger/Burger";
 import Menu from "../Menu/Menu";
+import { useOnClickOutSide } from "../../hooks/hooks";
 
 import {
   Container,
@@ -16,10 +17,12 @@ import {
 
 const Header = () => {
   const [open, setOpen] = useState(false);
+  const node = useRef();
+  useOnClickOutSide(node, () => setOpen(false));
 
   return (
     <Container>
-      <div>
+      <div ref={node}>
         <Burger open={open} setOpen={setOpen} />
         <Menu open={open} setOpen={setOpen} />
       </div>

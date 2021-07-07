@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledBurger = styled.button`
   position: fixed;
-  top: 4.5%;
+  top: 4%;
   right: 4rem;
   display: none;
   flex-direction: column;
@@ -34,7 +34,8 @@ export const StyledBurger = styled.button`
 
     :nth-child(2) {
       opacity: ${({ open }) => (open ? "0" : "1")};
-      transform: ${({ open }) => (open ? "translateX(20px)" : "translateX(0)")};
+      transform: ${({ open }) =>
+        open ? "translateX(200px)" : "translateX(0)"};
     }
 
     :nth-child(3) {
@@ -44,5 +45,11 @@ export const StyledBurger = styled.button`
   @media ${(props) => props.theme.breakpoints.md} {
     z-index: 99;
     display: flex;
+    top: 3.9%;
+  }
+  @media ${(props) => props.theme.breakpoints.sm} {
+    z-index: 99;
+    display: flex;
+    top: 5%;
   }
 `;

@@ -31,7 +31,6 @@ export default class MyDocument extends Document {
     return (
       <Html lang="es-ES">
         <Head>
-          <title>Imanol Ortega | Frontend Developer</title>
           <link
             rel="stylesheet"
             type="text/css"
