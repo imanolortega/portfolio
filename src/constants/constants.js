@@ -42,7 +42,7 @@ export const projects = [
     image: "/images/4.png",
     tags: ["React JS", "Material UI", "Firebase"],
     source: "https://github.com/imanolrtega/twitter-clone",
-    visit: "https://imanolortega.vercel.app/",
+    visit: "https://vuejs-firebase-2e83a.web.app/",
     id: 3,
   },
   {
