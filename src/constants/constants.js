@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "React Tetris",
     description:
-      "Tetris clásico con React Hooks. Estilo con Styled Components. Hosting con Vercel.",
+      "Tetris clásico, diferentes niveles con puntaje. Sólo desktop. Con React JS y Hooks. Estilo con Styled Components. Hosting con Vercel.",
     image: "/images/1.png",
     tags: ["React Js", "React Hooks", "Styled Components"],
     source: "https://github.com/imanolrtega/tetris-react",
@@ -12,7 +12,7 @@ export const projects = [
   {
     title: "Disney Plus Clone",
     description:
-      "Clon de Disney + con React Js, React Router y Redux. Estilo con Styled Components. Auth, DB y Hosting con Firebase.",
+      "Clon de Disney + con inicio de sesión y películas con información. Sólo desktop. Con React Js, React Router y Redux. Estilo con Styled Components. Auth, DB y Hosting con Firebase.",
     image: "/images/2.png",
     tags: [
       "React Js",
@@ -28,7 +28,7 @@ export const projects = [
   {
     title: "Amazon Clone",
     description:
-      "Clon de Amazon con React Js y React Router. Estilo con Styled-Components. Auth, DB y Hosting con Firebase.",
+      "Clon de Amazon con opción para ver los productos del carrito y el costo total, aumentar la cantidad de unidades y borrarlos. Sólo desktop. Con React Js y React Router. Estilo con Styled-Components. Auth, DB y Hosting con Firebase.",
     image: "/images/3.png",
     tags: ["React Js", "React Router", "Styled Components", "Firebase"],
     source: "https://github.com/imanolrtega/amazon-clone",
@@ -38,7 +38,7 @@ export const projects = [
   {
     title: "Twitter Clone",
     description:
-      "Clon de Twitter con React Js. Estilo con Material UI. DB y Hosting con Firebase.",
+      "Clon de Twitter con inicio de sesión y la opción de twittear. Sólo desktop. Con React Js. Estilo con Material UI. DB y Hosting con Firebase.",
     image: "/images/4.png",
     tags: ["React JS", "Material UI", "Firebase"],
     source: "https://github.com/imanolrtega/twitter-clone",
@@ -48,7 +48,7 @@ export const projects = [
   {
     title: "Covid Tracker",
     description:
-      "Covid Tracker con React Js, Chart Js, API de disease.sh. Estilo con Material UI. Hosting con Firebase.",
+      "Covid Tracker actualizado al día de hoy y la opción de seleccionar por país. Responsivo. Con React Js, Chart Js, API de disease.sh. Estilo con Material UI. Hosting con Firebase.",
     image: "/images/5.png",
     tags: ["React JS", "Material UI", "Firebase"],
     source: "https://github.com/imanolrtega/covid-tracker",
@@ -58,7 +58,7 @@ export const projects = [
   {
     title: "Datatable con Google Sheets",
     description:
-      "Primer proyecto con React JS. Datatable con Google Sheets como DB. Estilo con Bootstrap y Darkmode con Styled Components y Hooks.",
+      "Primer proyecto con React JS para la FAyA-UNSE, tablas con buscador. Responsivo. Datatables con Google Sheets como DB. Estilo con Bootstrap y Darkmode con Styled Components y Hooks.",
     image: "/images/6.png",
     tags: ["React JS", "Bootstrap", "Styled Components"],
     source: "https://github.com/imanolrtega/datatable-googlesheets",
