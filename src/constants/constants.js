@@ -76,6 +76,8 @@ export const techFront = [
   { key: 4, tech: "HTML5" },
   { key: 6, tech: "Material UI" },
   { key: 7, tech: "Styled Components" },
+  { key: 8, tech: "Tailwind CSS"},
+  { key: 9, tech: "Bootstrap"}
 ];
 
 export const techBack = [
