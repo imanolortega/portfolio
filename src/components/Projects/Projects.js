@@ -20,6 +20,18 @@ import {
 } from "../../styles/GlobalComponents";
 import { projects } from "../../constants/constants";
 
+const compare = (a, b) => {
+  if (a.id < b.id) {
+    return -1;
+  }
+  if (a.id > b.id) {
+    return 1;
+  }
+  return 0;
+};
+
+projects.sort(compare);
+
 const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider divider />

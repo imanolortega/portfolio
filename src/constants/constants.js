@@ -7,12 +7,12 @@ export const projects = [
     tags: ["React Js", "React Hooks", "Styled Components"],
     source: "https://github.com/imanolrtega/tetris-react",
     visit: "https://tetris-reactjs.vercel.app/",
-    id: 0,
+    id: 1,
   },
   {
     title: "Disney Plus Clone",
     description:
-      "Clon de Disney + con inicio de sesión y películas con información. Sólo desktop. Con React Js, React Router y Redux. Estilo con Styled Components. Auth, DB y Hosting con Firebase.",
+      "Clon de Disney + con inicio de sesión y películas con información. Sólo desktop. Con React JS, React Router y Redux. Estilo con Styled Components. Auth, DB y Hosting con Firebase.",
     image: "/images/2.png",
     tags: [
       "React Js",
@@ -23,7 +23,7 @@ export const projects = [
     ],
     source: "https://github.com/imanolrtega/disney-clone",
     visit: "https://disney-clon-51eba.web.app/",
-    id: 1,
+    id: 2,
   },
   {
     title: "Amazon Clone",
@@ -33,27 +33,27 @@ export const projects = [
     tags: ["React Js", "React Router", "Styled Components", "Firebase"],
     source: "https://github.com/imanolrtega/amazon-clone",
     visit: "https://clone-563e4.web.app/",
-    id: 2,
+    id: 3,
   },
   {
     title: "Twitter Clone",
     description:
-      "Clon de Twitter con inicio de sesión y la opción de twittear. Sólo desktop. Con React Js. Estilo con Material UI. DB y Hosting con Firebase.",
+      "Clon de Twitter con inicio de sesión y la opción de twittear. Sólo desktop. Con React JS. Estilo con Material UI y CSS (BEM). DB y Hosting con Firebase.",
     image: "/images/4.png",
     tags: ["React JS", "Material UI", "Firebase"],
     source: "https://github.com/imanolrtega/twitter-clone",
     visit: "https://vuejs-firebase-2e83a.web.app/",
-    id: 3,
+    id: 4,
   },
   {
     title: "Covid Tracker",
     description:
-      "Covid Tracker actualizado al día de hoy y la opción de seleccionar por país. Responsivo. Con React Js, Chart Js, API de disease.sh. Estilo con Material UI. Hosting con Firebase.",
+      "Covid Tracker actualizado al día de hoy y la opción de seleccionar por país. Responsivo. Con React JS, Chart Js, API de disease.sh. Estilo con Material UI. Hosting con Firebase.",
     image: "/images/5.png",
     tags: ["React JS", "Material UI", "Firebase"],
     source: "https://github.com/imanolrtega/covid-tracker",
     visit: "https://covid-tracker-616b2.web.app/",
-    id: 4,
+    id: 5,
   },
   {
     title: "Datatable con Google Sheets",
@@ -63,7 +63,27 @@ export const projects = [
     tags: ["React JS", "Bootstrap", "Styled Components"],
     source: "https://github.com/imanolrtega/datatable-googlesheets",
     visit: "http://clasesvirtuales.faya.com.ar/",
-    id: 5,
+    id: 6,
+  },
+  {
+    title: "Facebook Clone",
+    description:
+      "Clon de Facebook, con inicio de sesión, opción para publicar texto y fotos en el feed. Responsivo. Con Next JS. Estilo con Tailwind CSS. Auth, DB, Storage con Firebase. Hosting con Vercel.",
+    image: "/images/0.jpg",
+    tags: ["React JS", "Next JS", "Tailwind CSS", "Firebase"],
+    source: "https://github.com/imanolrtega/facebook-clone",
+    visit: "https://clone-sepia.vercel.app/",
+    id: 0,
+  },
+  {
+    title: "Buscador de Noticias de Blogs",
+    description:
+      "Buscador de noticias con inicio de sesión y barra de búsqueda por palabras. Con React JS y Redux. Login con Google y buscador con API de GNews. Estilo con CSS (BEM).",
+    image: "/images/7.jpg",
+    tags: ["React JS", "Redux JS", "CSS"],
+    source: "https://github.com/imanolrtega/react-redux-blog",
+    visit: "https://blogcito.netlify.app/",
+    id: 7,
   },
 ];
 
@@ -76,8 +96,8 @@ export const techFront = [
   { key: 4, tech: "HTML5" },
   { key: 6, tech: "Material UI" },
   { key: 7, tech: "Styled Components" },
-  { key: 8, tech: "Tailwind CSS"},
-  { key: 9, tech: "Bootstrap"}
+  { key: 8, tech: "Tailwind CSS" },
+  { key: 9, tech: "Bootstrap" },
 ];
 
 export const techBack = [
