@@ -109,6 +109,27 @@ export const ExternalLinks = styled.a`
   }
 `;
 
+export const MoreProjects = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10rem;
+`;
+
+export const MoreProjectsButton = styled.a`
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 2rem 2.7rem;
+  background: linear-gradient(270deg, #00dbd8 0%, #b133ff 100%);
+  border-radius: 9999px;
+  transition: 0.5s;
+  opacity: 0.9;
+  &:hover {
+    opacity: 1;
+  }
+`;
+
 export const TagList = styled.ul`
   display: flex;
   justify-content: space-around;

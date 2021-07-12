@@ -12,6 +12,8 @@ import {
   TitleContent,
   UtilityList,
   Img,
+  MoreProjects,
+  MoreProjectsButton,
 } from "./ProjectsStyles";
 import {
   Section,
@@ -63,6 +65,11 @@ const Projects = () => (
         )
       )}
     </GridContainer>
+    <MoreProjects>
+      <MoreProjectsButton href="https://github.com/imanolrtega">
+        Más proyectos
+      </MoreProjectsButton>
+    </MoreProjects>
   </Section>
 );
 
