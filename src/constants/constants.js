@@ -38,7 +38,7 @@ export const projects = [
   {
     title: "Twitter Clone",
     description:
-      "Clon de Twitter con inicio de sesión y la opción de twittear. Sólo desktop. Con React JS. Estilo con Material UI y CSS (BEM). DB y Hosting con Firebase.",
+      "Clon de Twitter con inicio de sesión y la opción de twittear imágenes y texto y eliminar el tweet. Sólo desktop. Con React JS. Estilo con Material UI y CSS (BEM). DB y Hosting con Firebase.",
     image: "/images/4.png",
     tags: ["React JS", "Material UI", "Firebase"],
     source: "https://github.com/imanolrtega/twitter-clone",
