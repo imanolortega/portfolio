@@ -68,7 +68,7 @@ export const projects = [
   {
     title: "Facebook Clone",
     description:
-      "Clon de Facebook, con inicio de sesión, opción para publicar texto y fotos y eliminar la publicación. Responsivo. Con Next JS. Estilo con Tailwind CSS. Auth, DB y Storage con Firebase. Hosting con Vercel.",
+      "Clon de Facebook, con inicio de sesión, opción para publicar texto y fotos y eliminar la publicación. Con Next JS. Estilo con Tailwind CSS. Auth, DB y Storage con Firebase. Hosting con Vercel.",
     image: "/images/0.jpg",
     tags: ["React JS", "Next JS", "Tailwind CSS", "Firebase"],
     source: "https://github.com/imanolrtega/facebook-clone",
