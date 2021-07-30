@@ -33,7 +33,7 @@ export const projects = [
     tags: ["React Js", "React Router", "Styled Components", "Firebase"],
     source: "https://github.com/imanolrtega/amazon-clone",
     visit: "https://clone-563e4.web.app/",
-    id: 3,
+    id: 5,
   },
   {
     title: "Twitter Clone",
@@ -48,12 +48,12 @@ export const projects = [
   {
     title: "Covid Tracker",
     description:
-      "Covid Tracker actualizado al día de hoy y la opción de seleccionar por país. Responsivo. Con React JS, Chart Js, API de disease.sh. Estilo con Material UI. Hosting con Firebase.",
-    image: "/images/5.png",
-    tags: ["React JS", "Material UI", "Firebase"],
-    source: "https://github.com/imanolrtega/covid-tracker",
-    visit: "https://covid-tracker-616b2.web.app/",
-    id: 5,
+      "Covid Tracker con Vue JS, Leaflet y Tailwind. Casos totales y por día de todo el mundo. Responsivo. Hosting Vercel.",
+    image: "/images/8.jpg",
+    tags: ["Vue JS", "Tailwind", "Leaflet"],
+    source: "https://github.com/imanolrtega/covid-tracker-vue",
+    visit: "https://covid-tracker-vue.vercel.app/",
+    id: 3,
   },
   {
     title: "Datatable con Google Sheets",
@@ -89,15 +89,16 @@ export const projects = [
 
 export const techFront = [
   { key: 1, tech: "React JS" },
+  { key: 2, tech: "Vue JS" },
   { key: 0, tech: "Javascript" },
-  { key: 2, tech: "Redux JS" },
-  { key: 3, tech: "Next JS" },
-  { key: 5, tech: "CSS3" },
-  { key: 4, tech: "HTML5" },
-  { key: 6, tech: "Material UI" },
-  { key: 7, tech: "Styled Components" },
-  { key: 8, tech: "Tailwind CSS" },
-  { key: 9, tech: "Bootstrap" },
+  { key: 3, tech: "Redux JS" },
+  { key: 4, tech: "Next JS" },
+  { key: 6, tech: "CSS3" },
+  { key: 5, tech: "HTML5" },
+  { key: 7, tech: "Material UI" },
+  { key: 8, tech: "Styled Components" },
+  { key: 9, tech: "Tailwind CSS" },
+  { key: 10, tech: "Bootstrap" },
 ];
 
 export const techBack = [
