@@ -14,11 +14,15 @@ const AboutMe = () => {
       <SectionTitleH3 main>Sobre mí</SectionTitleH3>
       <SectionText>
         Tengo 29 años. Estudio Frontend desde principios de 2020. <br />
-        Soy (fui) diseñador gráfico y comunicador. Comencé a programar con
-        Python hace unos años y desde el año pasado opté por el Front y
-        Javascript. <br />
-        Busco comenzar mi carrera como programador para dedicarme full time al
-        Desarrollo Web y continuar aprendiendo.{" "}
+        Antes fui diseñador gráfico y estudiante de Comunicación Social. Trabajo
+        con Javascript y sus frameworks Vue JS y React JS. <br />
+        Actualmente trabajo en{" "}
+        <a
+          href="https://www.linkedin.com/company/silstech/"
+          style={{ color: "white" }}>
+          Silstech
+        </a>
+        .{" "}
       </SectionText>
     </Section>
   );
