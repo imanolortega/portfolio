@@ -13,14 +13,14 @@ const AboutMe = () => {
       <SectionDivider divider />
       <SectionTitleH3 main>Sobre mí</SectionTitleH3>
       <SectionText>
-        Tengo 29 años. Estudio Frontend desde principios de 2020. <br />
+        Tengo 30 años. Estudio Frontend desde principios de 2020. <br />
         Antes fui diseñador gráfico y estudiante de Comunicación Social. Trabajo
-        con Javascript y sus frameworks Vue JS y React JS. <br />
+        con Javascript y React JS. <br />
         Actualmente trabajo en{" "}
         <a
-          href="https://www.linkedin.com/company/silstech/"
+          href="https://easytechgreen.com/"
           style={{ color: "white" }}>
-          Silstech
+          Easytechgreen
         </a>
         .{" "}
       </SectionText>
